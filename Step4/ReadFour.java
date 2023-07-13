@@ -14,7 +14,7 @@ public class ReadFour
         public static void main(String[] args)
         {
             try {
-                Scanner myScanner = new Scanner(new File("Users/brent/LocalProjects/FileIOJava/input.txt"));
+                Scanner myScanner = new Scanner(new File("/Users/brent/LocalProjects/FileIOJava/Step4/input.txt"));
                 while(myScanner.hasNext()){
                     //you have to read the entire line as a string.
                     String lineIn = myScanner.nextLine();
